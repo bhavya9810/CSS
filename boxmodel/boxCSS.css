@@ -7,11 +7,14 @@
 }
 
 #org {
-  background-color: orange;
+  /* background-color: orange; */
+  background-color: #838065;
 }
 #wht {
-  background-color: white;
+  /* background-color: white; */
+  background-color: rgba(255, 99, 1, 0.6);
 }
 #grn {
-  background-color: green;
+  /* background-color: green; */
+  background-color: magenta;
 }
