@@ -31,3 +31,29 @@
   background-image: radial-gradient(circle, red, blue, orange);
   background-image: radial-gradient(yellow 5%, orange 10%, red 50%);
 }
+.mydiv2 {
+  border: 1px solid black;
+  margin: 10px;
+  height: 400px;
+
+  background-image: repeating-radial-gradient(yellow 20%, red 40%);
+  background-image: repeating-radial-gradient(ellipse, yellow 20%, red 40%);
+  background-image: repeating-radial-gradient(circle, green 20%, lime 40%);
+  background-image: repeating-radial-gradient(
+    circle at top left,
+    green 20%,
+    lime 40%
+  );
+  background-image: repeating-radial-gradient(
+    circle at top left,
+    lightgreen 20%,
+    green 55%,
+    lime 60%
+  );
+  background-image: repeating-radial-gradient(
+    closest-side at 25px 35px,
+    orange 15%,
+    gold 45%
+  );
+  background-size: 60px 60px;
+}
