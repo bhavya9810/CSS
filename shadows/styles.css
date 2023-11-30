@@ -8,3 +8,16 @@ h1 {
   height: 200px;
   box-shadow: -10px -10px 12px green, 15px 15px 8px orange;
 }
+
+h2 {
+  color: white;
+  text-shadow: 1px 1px red, -1px -1px red, 1px -1px red, -1px 1px red;
+}
+
+.box2 {
+  margin: 40px 0 0 60px;
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+  box-shadow: 20px 20px 50px 5px red inset;
+}
