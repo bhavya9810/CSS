@@ -1,9 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container {
   height: 400px;
   border: 2px solid green;
   display: flex;
   /* flex-direction: row; */
-  /* flex-wrap: wrap-reverse; */
+  flex-wrap: wrap;
   /* flex-flow: row wrap; */
   justify-content: center;
   align-items: center;
@@ -18,8 +23,8 @@
   border: 1px solid brown;
   background-color: aqua;
   /* margin: 10px; */
-  /* width: 100px; */
-  flex-basis: 100px;
+  width: 150px;
+  flex-basis: 50%;
   /* flex-grow: 1; */
   /* flex-shrink: 4; */
 }
@@ -32,17 +37,17 @@
   order: 3;
   /* flex-grow: 2; */
   /* flex-shrink: 4; */
-  align-self: stretch;
+  /* align-self: stretch; */
 }
 #box3 {
   order: 1;
   /* flex-grow: 3; */
   /* flex-shrink: 8; */
-  align-self: flex-end;
+  /* align-self: flex-end; */
 }
 #box4 {
   order: 2;
   /* flex-grow: 4; */
   /* flex-shrink: 10; */
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
