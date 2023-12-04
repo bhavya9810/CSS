@@ -7,16 +7,28 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  /* gap: 12px; */
-  /* align-content: flex-end;
+  gap: 12px;
+  align-content: flex-end;
   align-content: center;
   align-content: space-between;
-  align-content: space-evenly; */
+  align-content: space-evenly;
 }
 
 .box {
   border: 1px solid brown;
   background-color: aqua;
   /* margin: 10px; */
-  width: 500px;
+  width: 100px;
+}
+#box1 {
+  order: 4;
+}
+#box2 {
+  order: 3;
+}
+#box3 {
+  order: 1;
+}
+#box4 {
+  order: 2;
 }
