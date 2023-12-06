@@ -69,6 +69,18 @@ section {
   background-size: cover;
   background-position: center;
 }
+
+.desc {
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 0.5rem 2.5rem;
+  top: 50%;
+  left: 40%;
+  transform: translateX(-50%) translateY(-40%);
+  font-size: 3.5rem;
+  font-weight: 600;
+}
 .bg1 {
   background-image: url(sport-1.jpg);
 }
