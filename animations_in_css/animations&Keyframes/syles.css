@@ -10,4 +10,42 @@
   background-color: aqua;
   height: 212px;
   width: 212px;
+  animation: bhavya;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+  /* animation-direction: alternate; */
+  animation-fill-mode: backwards;
 }
+
+@keyframes bhavya {
+  0% {
+    width: 212px;
+    background-color: aqua;
+  }
+
+  30% {
+    width: 35%;
+    background-color: aquamarine;
+  }
+
+  65% {
+    width: 70%;
+    background-color: blue;
+  }
+
+  100% {
+    width: 100%;
+    background-color: blueviolet;
+  }
+}
+
+/* @keyframes bhavya {
+  from {
+    width: 212px;
+  }
+  to {
+    width: 100%;
+  }
+} */
