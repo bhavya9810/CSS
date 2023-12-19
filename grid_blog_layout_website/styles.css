@@ -52,6 +52,11 @@ img {
 }
 
 .card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px 30px 30px 2fr;
+  gap: 2px;
+  /* flex-direction: column; */
   border: 6px solid #c8c8c8;
   padding: 12px;
   min-height: 40vh;
@@ -68,4 +73,12 @@ img {
 #design {
   color: var(--green);
   font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.detail {
+  font-size: 20px;
 }
