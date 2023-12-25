@@ -346,3 +346,71 @@
   right: -40px;
   top: -45px;
 }
+
+.project-number-left {
+  left: -40px;
+  top: -45px;
+}
+
+.project-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 2em;
+  bottom: 20%;
+  z-index: 5;
+  gap: 1em;
+  transition: all 0.4s;
+}
+
+.project-content-left {
+  left: 10%;
+}
+
+.project-content-right {
+  right: 10%;
+}
+
+.project-skills-container {
+  width: 60%;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project-skill {
+  width: 40px;
+}
+
+.project-heading {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+.project-subHeading {
+  width: 70%;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.btn-group {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.btn-project:hover {
+  border: none;
+}
+
+.icon {
+  cursor: pointer;
+  color: white;
+  font-size: 35px;
+  transition: color 0.4s;
+}
+.icon:hover {
+  color: var(--bgOrange);
+}
