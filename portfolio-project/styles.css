@@ -442,3 +442,7 @@
 
   background-image: url(images/projects/Project4.png);
 }
+
+.skills-container {
+  position: relative;
+}
