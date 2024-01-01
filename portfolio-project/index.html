@@ -252,22 +252,53 @@
     </div>
 
     <div class="contactUs-form-container">
-      <div class="container"><h1 class="contactUs-heading">Contact Me</h1></div>
-      <h3 class="contactUs-subheading">
-        Questions, Thoughts, Or Just Want To Say Hello?
-      </h3>
-      <div class="contactUs-form-container">
-        <form action="">
-          <div class="formfeild-container">
-            <input
-              type="text"
-              name="name"
-              id=""
-              class="formfield"
-              placeholder="Enter your name"
-            />
-          </div>
-        </form>
+      <div class="container">
+        <h1 class="contactUs-heading">Contact Me</h1>
+        <h3 class="contactUs-subheading">
+          questions, thoughts, or just want to say hello?
+        </h3>
+        <div class="contactUs-form-container">
+          <form class="form" action="">
+            <div class="formfeild-container">
+              <input
+                type="text"
+                name="name"
+                id=""
+                class="formfield"
+                placeholder="Enter your name"
+              />
+              <input
+                type="email"
+                name="email"
+                id=""
+                class="formfield"
+                placeholder="Enter your email address"
+              />
+              <input
+                type="text"
+                name="subject"
+                id=""
+                class="formfield"
+                placeholder="Enter your subject"
+              />
+
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                class="formfield formfield-textarea"
+                placeholder="Enter your message"
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="btn-pink" id="submit-btn">
+                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
